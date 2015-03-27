@@ -1,8 +1,18 @@
 
 /* EN TETE */
 
+header a {
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+
+/*header div {
+		    border: 1px solid red;
+}*/
+
 .info {
 	margin: 0 auto;
+	margin-bottom: 40px;
 	min-height: 35px;
 	padding-bottom: 6px;
 	border-bottom: 1px solid rgb(220,220,220);
@@ -13,7 +23,7 @@
 .info li {
 	list-style-type: none;
     display: inline-block;
-    padding: 3px;
+    padding: 10px;
 }
 
 .info li a {
@@ -33,7 +43,10 @@
 
 .info-Mail {
 	border-left: 1px solid rgb(220,220,220);
-	padding-left: 5px;
+}
+
+li.info-Mail{
+	padding-left: 14px;
 }
 
 
@@ -45,4 +58,48 @@
 
 .logo {
 	display: block;
+	width: 400px;
+	float: left;
+}
+
+.logo img {
+	float: left;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+
+.logo h1 {
+ font-weight: bold;
+ font-size: 2.313em;
+}
+
+.main-Nav nav {
+	float: left;
+}
+
+.main-Nav li {
+	display: inline-block;
+	font-weight: bold;
+	padding: 20px 12px;
+}
+
+
+.main-current {
+	color: rgb(222,43,36);
+}
+
+
+.main-btn {
+	float: right;
+	text-align: center;
+  text-shadow: 0 1px 1px;
+  padding: 10px 25px;
+  display: block;
+  font-size: 1.286em;
+  text-decoration: none;
+  color: #fff;
+background: #de2b24; /* Old browsers */
+background: rgb(222,43,36);
+border-radius: 4px;
 }
