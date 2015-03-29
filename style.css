@@ -6,6 +6,14 @@ header a {
 	margin-bottom: 40px;
 }
 
+header {
+	color: rgb(66,66,66);
+}
+
+header div{
+	margin-bottom: 40px;
+}
+
 /*header div {
 		    border: 1px solid red;
 }*/
@@ -24,6 +32,7 @@ header a {
 	list-style-type: none;
     display: inline-block;
     padding: 10px;
+	vertical-align: middle;	
 }
 
 .info li a {
@@ -82,8 +91,17 @@ li.info-Mail{
 	display: inline-block;
 	font-weight: bold;
 	padding: 20px 12px;
+	vertical-align: middle;
 }
 
+.point {
+background: url('assets/point.png') no-repeat;
+padding-left: 15px;
+}
+
+.point img{
+	height: auto;
+}
 
 .main-current {
 	color: rgb(222,43,36);
@@ -96,10 +114,67 @@ li.info-Mail{
   text-shadow: 0 1px 1px;
   padding: 10px 25px;
   display: block;
-  font-size: 1.286em;
+  font-size: 1em;
   text-decoration: none;
   color: #fff;
 background: #de2b24; /* Old browsers */
 background: rgb(222,43,36);
 border-radius: 4px;
 }
+
+/* MAIN BANNIERE */
+
+.main-banniere {
+	position: relative;
+  margin: none;
+  padding: none;
+}
+
+.main-banniere img {
+	vertical-align: middle;
+	height: auto;
+	max-width: 100%;
+}
+
+.bann-absolute {
+	width: auto;
+	height: auto;
+	position: absolute;
+    left:0;
+    right:0;
+    margin : auto;
+    bottom: 260px;
+}
+
+.bann-absolute > div {
+    margin : auto;
+}
+
+.bann-absolute p {
+	text-align: center;
+	color: #fff;
+}
+
+.bann-button a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 2px 15px;
+  background: rgb(248,205,83);
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 26px 50px;
+  font-weight: bold;
+}
+
+
+.bann-title {
+	font-size: 33px;
+	font-weight: bold;
+	margin-bottom: 14px:;
+}
+
+.bann-subtitle {
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+
