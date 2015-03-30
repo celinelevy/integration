@@ -180,61 +180,117 @@ border-radius: 4px;
 
 
 /* Gaelle */
-
 .facebook {
 	background: #1287bf;
 	background-size: 1430px 851px;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .analysis {
 	background: #1287bf;
 	background-size: 1430px 851px;
 	background-repeat: no-repeat;
-}
-
-.social {
-	background: #2a2a2a;
-	background-size: 1430px 493px;
-	background-repeat: no-repeat
-}
-
-.footer {
-	background: #515151;
-	background-size: 1430px 70px;
-	background-repeat: no-repeat
+	padding-top: 110px;
+	text-align: center;
+	color: #fff;
+	width: auto;
+	height: 850px;
+    left:0;
+    right:0;
 }
 
 .formulaire {
 background-image:url(assets/shape11.png);
 background-repeat:no-repeat;
 background-position:50% 50%;
+margin-left: auto;
+margin-right: auto;
+color: rgb(64,64,64);
+padding: 70px;
+border-radius: 3px;
 }
 
-.case formulaire {
+.formulaire input{
+	padding-left: 10px;
+	text-align: left;
+	height: 55px;
+	margin-bottom: 8px;
+}
+
+input.submit{
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top:35px;
+padding-left: 25px;
+padding-right:25px;
+}
+
+.case {
 text-align: left;
+margin-top: 30px;
 }
 
+.case p {
+text-align: center;
+}
+
+.social {
+	background: #2a2a2a;
+	background-size: 1430px 493px;
+	background-repeat: no-repeat;
+display: block;
+	color: #FFF;
+	padding: 100px;
+}
+.social h2, .social p{text-align: center;}
+
+.social ul {
+	text-align: center;
+	list-style: none;
+}
+
+.social li {
+	display: inline-block;
+	padding: 20px;
+}
 
 .submit {
 	text-align: center;
-	text-shadow: 0 1px 1px;
 	padding: 10px 25px;
 	display: inline;
 	font-size: 15px;
 	color: #fff;
 	background: #de2b24;
 	border-radius: 4px;
+	margin-top: 22px;
 }
 
+.email-put {
+	cursor: pointer;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 25px;
+	background: #2a2a2a;
+	color: #FFF;
+}
 
 .email {
 text-align: left;
 background-color:#515151;
+padding-left: 10px;
+color: white;
+height: 50px;
+width: 700px;
+margin: 50px;
 }
 
 .footer {
+	height: 70px;
 	text-align: center;
 	background-color: #515151;
 	color: #cecece;
 }
+.footer p {padding-top: 30px;}
