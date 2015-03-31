@@ -1,4 +1,4 @@
-
+/* xxxxxxxxxxxxx Celine */
 /* EN TETE */
 
 header a {
@@ -177,6 +177,207 @@ border-radius: 4px;
 	font-size: 20px;
 	margin-bottom: 60px;
 }
+
+
+/*Nicola*/
+h1{font-size:2.313em;}
+h2{font-size:2.5em;}
+li{list-style: none;}
+
+.block	{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.about {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.title h2 {
+	display: block;
+	text-align: center;
+	}
+.subtitle {
+	text-align: center;
+	margin-bottom: 16px
+	}
+.shape {
+	display: block;
+	height: 45px;
+	background: url("assets/trait_noir.png") no-repeat top center scroll transparent;
+	}
+.vary {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	display: inline-block;
+	width: 28.5%;
+	}
+.vary strong {
+	font-size: 1.375em;
+	display: block;
+	}
+.icone{
+	display: block;
+	height: 105px;
+	}
+.livre{
+	background: url("assets/livre.png") no-repeat top center scroll transparent;
+	}
+.socialfb{
+	background: url("assets/fb_2.png") no-repeat top center scroll transparent;
+	}
+.ads{
+	background: url("assets/ads.png") no-repeat top center scroll transparent;
+	}
+.approach{
+	background-color: #f3f3f3;
+	}
+.step {
+	display: inline-block;
+	margin-bottom: 45px;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:	0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.step p{
+	height: 240px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.step_left p{
+	padding-left: 40px;
+	padding-right:50px;
+	text-align: justify;
+	direction: ltr;
+}
+.step_right p{
+	padding-left: 50px;
+	padding-right:40px;
+	text-align: justify;
+	direction: rtl;
+}
+.step_right strong {
+	display: block;
+	text-align: right;
+}
+.step_left strong {
+	display: block;
+	text-align: left;
+}
+.image_step_left{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+	text-align: left;
+	width:43%;
+	height: 240px;
+}
+.image_step_right{
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	float: right;
+	text-align: right;
+	width:44%;
+	height: 240px;
+}
+.img1{
+	background: url("assets/step_1.png") no-repeat top center scroll transparent;
+	background-size: 100%;
+}
+.img2{
+	background: url("assets/step_2.png") no-repeat top center scroll transparent;
+		background-size: 100%;
+}
+.img3{
+	background: url("assets/step_3.png") no-repeat top center scroll transparent;
+		background-size: 100%;
+}
+.img4{
+	background: url("assets/step_4.png") no-repeat top center scroll transparent;
+		background-size: 100%;
+}
+/*Our work*/
+.travails {
+color: white;
+background-color: #de2b24;
+}
+.travails .shape {
+	display: block;
+	height: 45px;
+	background: url("assets/trait_blanc.png") no-repeat top center scroll transparent;
+}
+.worklist{
+		width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.work{
+	border: none;
+	background-color: #f35e59;
+	display: inline-block;	
+	width: 50%;
+	height: 250px;
+}
+.travails a{
+	text-decoration: none;
+	}
+.image_work{
+	display: inline-block;
+	width: 50%;
+	height: 250px;
+	background-size: 100%;
+}
+
+.image_work.image1{
+	background: url("assets/machine2.png") no-repeat top center scroll transparent;
+}
+.image_work.image2{
+	background: url("assets/arbre.png") no-repeat top center scroll transparent;
+}
+.image_work.image3{
+	background: url("assets/rue.png") no-repeat top center scroll transparent;
+}
+.image_work.image4{
+	background: url("assets/pont.png") no-repeat top center scroll transparent;
+}
+.work strong{
+	font-variant: normal;
+	font-size:1.625em;
+	}
+.work_right p{
+	background: url("assets/avion.png") no-repeat center scroll transparent;
+	padding-top: 125px;
+	width: 1%;
+	display: table-cell;
+	text-align: center;
+}
+.work_left p{
+	background: url("assets/avion.png") no-repeat center scroll transparent;
+	padding-top: 125px;
+	width: 50%;
+	text-align: center;
+}
+.work_left .image_work{
+	float: right;
+	}
+.work_right .image_work{
+	float: left;
+	}
+
+
 
 
 /* Gaelle */
